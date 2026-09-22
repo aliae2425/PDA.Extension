@@ -122,14 +122,14 @@ def executer(uidoc, mode):
 
     minimum = 3 if operation == 'repartir' else 2
     if len(mesures) < minimum:
-        TaskDialog.Show('418', u'Sélectionner au moins %d éléments '
+        TaskDialog.Show('PDA', u'Sélectionner au moins %d éléments '
                                u'visibles dans la vue active.' % minimum)
         return 0
 
     # Les épinglés servent de référence : ils ne bougent pas, les autres s'y calent.
     ancres = [bool(element.Pinned) for element, _ in mesures]
     if all(ancres):
-        TaskDialog.Show('418', u'Tous les éléments sélectionnés sont épinglés : '
+        TaskDialog.Show('PDA', u'Tous les éléments sélectionnés sont épinglés : '
                                u'aucun élément à déplacer.')
         return 0
 

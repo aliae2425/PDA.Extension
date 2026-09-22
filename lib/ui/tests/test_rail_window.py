@@ -18,15 +18,14 @@ from ui.base.RailWindow import RailWindow
 # Les outils à rail du dépôt. Aucun ne porte plus sa propre coquille : ils
 # doivent tous retomber sur celle du socle.
 BOUTONS = [
-    os.path.join('418.tab', 'Tools.panel', 'col1.stack',
+    os.path.join('PDA.tab', 'Tools.panel', 'col1.stack',
                  'duplicate_sheets.pushbutton'),
-    os.path.join('418.tab', 'Tools.panel', 'col1.stack',
+    os.path.join('PDA.tab', 'Tools.panel', 'col1.stack',
                  'views_duplicate.pushbutton'),
-    os.path.join('418.tab', 'Tools.panel', 'col1.stack', 'Rename.pulldown',
+    os.path.join('PDA.tab', 'Tools.panel', 'col1.stack', 'Rename.pulldown',
                  'FindReplace_Sheets.pushbutton'),
-    os.path.join('418.tab', 'Tools.panel', 'col1.stack', 'Rename.pulldown',
+    os.path.join('PDA.tab', 'Tools.panel', 'col1.stack', 'Rename.pulldown',
                  'FindReplace - Views.pushbutton'),
-    os.path.join('418.tab', 'Manage.panel', 'Materiaux.pushbutton'),
 ]
 
 
